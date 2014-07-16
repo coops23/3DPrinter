@@ -1,0 +1,3 @@
+Use multiple processes. Two pygame instances, each maximized on its own screen, communicating back and forth (you could use any of: the very cool python multiprocessing module, local TCP, pipes, writing/reading files, etc)
+Set the same resolution on both of your displays, and create a large (wide) window that spans them with your information on one half and the user display on the other. Then manually place the window so that the user side is on their screen and yours is on the laptop screen. It's hacky, but might a better use of your time than engineering a better solution ("If it's studpid and it works, it ain't stupid" ;).
+Use pyglet, which is similar to pygame and supports full screen windows: pyglet.window.Window(fullscreen=True, screens[1])

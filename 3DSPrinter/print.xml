@@ -1,0 +1,12 @@
+<Root>
+  <Settings>
+    <InitialLongPrint>false</InitialLongPrint>
+    <InitialExposure>100</InitialExposure>
+    <SprewSliceCount>2</SprewSliceCount>
+    <SliceCount>2</SliceCount>
+    <SliceThickness>100</SliceThickness>
+    <Exposure>100</Exposure>
+    <PullOffAndInSteps>false</PullOffAndInSteps>
+    <SprewSide>X</SprewSide>
+  </Settings>
+</Root>
